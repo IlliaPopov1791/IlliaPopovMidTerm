@@ -6,7 +6,7 @@ import android.os.Bundle;
 import androidx.appcompat.widget.Toolbar;
 
 public class SecondActivity extends AppCompatActivity {
-
+    //Popov, P - between A and M
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

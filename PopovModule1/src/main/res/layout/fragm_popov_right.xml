@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/item_n"
+        android:text=""
         android:textColor="#ffff00"
         android:textSize="40sp" />
 
@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/item_description"
+        android:text=""
         android:textColor="#ffffff"
         android:textSize="35sp" />
 
