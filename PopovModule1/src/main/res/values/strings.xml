@@ -6,4 +6,6 @@
     <string name="on">ON</string>
     <string name="switch_on_status">Illia ON</string>
     <string name="switch_off_status">Illia OFF</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
