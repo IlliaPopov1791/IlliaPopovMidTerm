@@ -3,6 +3,7 @@ package illia.popov.n01421791.mid;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import androidx.appcompat.widget.Toolbar;
 
 public class SecondActivity extends AppCompatActivity {
 
@@ -10,5 +11,8 @@ public class SecondActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
+        Toolbar toolbar = findViewById(R.id.ill_toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }
