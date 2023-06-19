@@ -15,5 +15,26 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/leftFragmentView"
+        android:name="illia.popov.n01421791.mid.IlliaLeftFrag"
+        android:layout_width="179dp"
+        android:layout_height="679dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout="@layout/frag_illia_left" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/rightFragmentView"
+        android:name="illia.popov.n01421791.mid.PopovRightFragment"
+        android:layout_width="188dp"
+        android:layout_height="679dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout="@layout/fragm_popov_right" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
