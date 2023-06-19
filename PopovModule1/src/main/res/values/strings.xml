@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">IlliaMidTerm</string>
+    <string name="name">Illia M. Popov</string>
+    <string name="short_name">Illia</string>
+    <string name="off">OFF</string>
+    <string name="on">ON</string>
+    <string name="switch_on_status">Illia ON</string>
+    <string name="switch_off_status">Illia OFF</string>
 </resources>

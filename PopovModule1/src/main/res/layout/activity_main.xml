@@ -4,16 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ADD8E6"
+    android:background="@color/light_blue"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:id="@+id/ill_name"
+        android:layout_width="296dp"
+        android:layout_height="46dp"
+        android:gravity="center"
+        android:text="@string/name"
+        android:textColor="@color/red"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="111dp"
+        android:layout_height="50dp"
+        android:checked="true"
+        android:switchMinWidth="56dp"
+        android:text="@string/short_name"
+        android:textColor="@color/red"
+        android:textOff="@string/off"
+        android:textOn="@string/on"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.147" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
